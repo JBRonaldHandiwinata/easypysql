@@ -3,7 +3,6 @@ Simplify python CRUD mysql using mysqlclient &amp; DBUtils 1.3
 
 ### SELECT single row
 ```bash
-    valuecode = "XX1233"
     es = EasySql()
     es.fetch_rows(sql=""" SELECT * FROM database_table """, None)
     es.closing()
