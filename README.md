@@ -55,7 +55,7 @@ Simplify python CRUD mysql using mysqlclient &amp; DBUtils 1.3
                            
   i_insert = es.insert_rows(tbl="database_table", i_select)
   es.dispose()
-  es.closing
+  es.closing()
 ```
 
 ### Inherit to another class
